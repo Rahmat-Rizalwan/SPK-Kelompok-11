@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Sistem Pakar Rambutan</string>
+    <string name="app_name_full">Sistem Pakar Diagnosa Penyakit Pada Tanaman Buah Rambutan</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="belum_punya_akun">Belum punya akun?</string>
+    <string name="daftar">Daftar</string>
+    <string name="sudah_punya_akun">Sudah punya akun?</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="diagnosa_penyakit">Diagnosa Penyakit</string>
+    <string name="riwayat_diagnosa">Riwayat Diagnosa</string>
+    <string name="daftar_penyakit">Daftar Penyakit</string>
+    <string name="logout">Logout</string>
+    <string name="metode_forward_chaining">Metode Forward Chaining</string>
+    <string name="metode_certainty_factor">Metode Certainty Factor</string>
+</resources>

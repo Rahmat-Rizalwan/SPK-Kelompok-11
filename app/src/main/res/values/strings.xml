@@ -14,4 +14,7 @@
     <string name="logout">Logout</string>
     <string name="metode_forward_chaining">Metode Forward Chaining</string>
     <string name="metode_certainty_factor">Metode Certainty Factor</string>
+    <string name="data_gejala">Data Gejala</string>
+    <string name="data_penyakit">Data Penyakit</string>
+    <string name="data_aturan">Data Aturan</string>
 </resources>

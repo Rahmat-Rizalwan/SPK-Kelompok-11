@@ -12,7 +12,32 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SistemPakarRambutan"
         android:usesCleartextTraffic="true">
-        <activity android:name=".DaftarActivity"></activity>
+        <activity
+            android:name=".admin.AturanActivity"
+            android:parentActivityName=".AdminActivity"></activity>
+        <activity
+            android:name=".admin.PenyakitActivity"
+            android:parentActivityName=".AdminActivity" />
+        <activity
+            android:name=".admin.GejalaActivity"
+            android:parentActivityName=".AdminActivity" />
+        <activity android:name=".AdminActivity" />
+        <activity
+            android:name=".PenyakitDetailActivity"
+            android:parentActivityName=".PenyakitActivity" />
+        <activity
+            android:name=".PenyakitActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RiwayatActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DiagnosaCfActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".DiagnosaForwardActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".DaftarActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity" />
         <activity

@@ -13,8 +13,26 @@
         android:theme="@style/Theme.SistemPakarRambutan"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".admin.AturanViewActivity"
+            android:parentActivityName=".admin.AturanActivity"></activity>
+        <activity
+            android:name=".admin.AturanEditActivity"
+            android:parentActivityName=".admin.AturanViewActivity" />
+        <activity
+            android:name=".admin.PenyakitEditActivity"
+            android:parentActivityName=".admin.PenyakitActivity" />
+        <activity
+            android:name=".admin.PenyakitTambahActivity"
+            android:parentActivityName=".admin.PenyakitActivity" />
+        <activity
+            android:name=".admin.GejalaTambahActivity"
+            android:parentActivityName=".admin.GejalaActivity" />
+        <activity
+            android:name=".admin.GejalaEditActivity"
+            android:parentActivityName=".admin.GejalaActivity" />
+        <activity
             android:name=".admin.AturanActivity"
-            android:parentActivityName=".AdminActivity"></activity>
+            android:parentActivityName=".AdminActivity" />
         <activity
             android:name=".admin.PenyakitActivity"
             android:parentActivityName=".AdminActivity" />

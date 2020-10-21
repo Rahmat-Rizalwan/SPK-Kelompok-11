@@ -29,4 +29,9 @@
     <string name="gejala">Gejala</string>
     <string name="tidak_ada_gejala">Tidak ada gejala</string>
     <string name="atur_ulang_gejala">Atur Ulang Gejala</string>
+    <string name="ya">Ya</string>
+    <string name="tidak">Tidak</string>
+    <string name="tidak_ada_riwayat_diagnosa">Tidak ada riwayat diagnosa</string>
+    <string name="text_hasil_diagnosa_nama_penyakit">Berdasarkan gejala terpilih, kemungkinan terkena penyakit</string>
+    <string name="forward_chaining">Forward Chaining</string>
 </resources>

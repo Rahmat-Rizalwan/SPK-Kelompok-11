@@ -13,8 +13,11 @@
         android:theme="@style/Theme.SistemPakarRambutan"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".DiagnosaForwardHasilActivity"
+            android:parentActivityName=".DiagnosaForwardActivity"></activity>
+        <activity
             android:name=".admin.AturanViewActivity"
-            android:parentActivityName=".admin.AturanActivity"></activity>
+            android:parentActivityName=".admin.AturanActivity" />
         <activity
             android:name=".admin.AturanEditActivity"
             android:parentActivityName=".admin.AturanViewActivity" />

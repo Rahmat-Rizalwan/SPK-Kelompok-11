@@ -34,4 +34,10 @@
     <string name="tidak_ada_riwayat_diagnosa">Tidak ada riwayat diagnosa</string>
     <string name="text_hasil_diagnosa_nama_penyakit">Berdasarkan gejala terpilih, kemungkinan terkena penyakit</string>
     <string name="forward_chaining">Forward Chaining</string>
+    <string name="lanjut">Lanjut</string>
+    <string name="tidak_tahu">Tidak tahu</string>
+    <string name="sedikit_yakin">Sedikit yakin</string>
+    <string name="cukup_yakin">Cukup yakin</string>
+    <string name="yakin">Yakin</string>
+    <string name="sangat_yakin">Sangat yakin</string>
 </resources>

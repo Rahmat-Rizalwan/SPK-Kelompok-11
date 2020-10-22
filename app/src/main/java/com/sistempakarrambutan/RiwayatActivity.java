@@ -134,7 +134,14 @@ public class RiwayatActivity extends AppCompatActivity {
                             for (int i = 0; i < jsonArray.length(); i++) {
                                 JSONObject jsonObject = jsonArray.getJSONObject(i);
                                 HashMap<String, String> map = new HashMap<String, String>();
-                                map.put("nama_penyakit", jsonObject.getString("nama_penyakit"));
+                                String nama_penyakit = "";
+                                if (jsonObject.getString("nilai").equals("null")) {
+                                    nama_penyakit = jsonObject.getString("nama_penyakit");
+                                } else {
+                                    nama_penyakit = jsonObject.getString("nama_penyakit") +
+                                            " (" + jsonObject.getString("nilai") + "%)";
+                                }
+                                map.put("nama_penyakit", nama_penyakit);
                                 map.put("tanggal", jsonObject.getString("tanggal"));
                                 map.put("metode", jsonObject.getString("metode"));
                                 map.put("id_penyakit", jsonObject.getString("id_penyakit"));
